@@ -17,6 +17,7 @@ To register a new user, the client needs to send a JSON with email and password 
 }
 ```
 *The service returns `200` (OK) status code if the registration has been completed successfully.
+
 *If the email is already taken by another user, the service will return the `400` (Bad request) status code.
 
 
@@ -27,6 +28,7 @@ To register a new user, the client needs to send a JSON with email and password 
 
 #### Create a new quiz
 To create a new quiz, the client needs to send a JSON as the request's body via POST to `/api/quizzes`.
+
 The JSON should contain the four fields:
 - `title` a string, **required**;
 - `text` a string, **required**;
@@ -88,7 +90,9 @@ The response contains a JSON array of quizzes like the following:
 ]
 ```
 *If there are no quizzes, the service returns an empty JSON array: `[]`.
+
 *In both cases, the status code is `200` (OK).
+
 
 *The API should support the navigation through pages by passing the page parameter ( `/api/quizzes?page=1`).
 
@@ -100,18 +104,24 @@ Example: `{"answer": [0,2]}`.
 
 It is also possible to send an empty array [] since some quizzes may not have correct options.
 The service returns a JSON with two fields: `success` (true or false) and `feedback` (just a string). There are three possible responses.
+
 **1.** If the passed answer is correct:
 ```{"success":true,"feedback":"Congratulations, you're right!"}```
+
 **2.** If the answer is incorrect:
 ```{"success":false,"feedback":"Wrong answer! Please, try again."}```
+
 **3.** If the specified quiz does not exist, the server returns the `404` (Not found) status code.
 
 
 
 #### Delete a quiz
 A user can delete their quiz by sending the DELETE request to `/api/quizzes/{id}`.
+
 *If the operation was successful, the service returns the `204` (No content) status code without any content.
+
 *If the specified quiz does not exist, the server returns `404` (Not found).
+
 *If the specified user is not the author of this quiz, the response is the `403` (Forbidden) status code.
 
 
