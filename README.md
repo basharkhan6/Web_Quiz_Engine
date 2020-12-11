@@ -8,7 +8,6 @@ This is a [JetBrains Academy](https://hyperskill.org) [Project](https://hyperski
 
 
 ## Usage
----
 #### Register a user
 To register a new user, the client needs to send a JSON with email and password via POST request to `/api/register`:
 ```
@@ -122,7 +121,6 @@ To getting all completions of quizzes for a specified user by sending the GET re
 
 
 ## Technologies
-----
 Here I use [Spring Boot](https://spring.io/projects/spring-boot) freamework of [Java](https://www.oracle.com/java/).
 * [Spring Boot Web](https://spring.io/projects/spring-boot) - Build RESTful web service.
 * [Spring Boot Security](https://spring.io/guides/gs/securing-web) - Securing Web.
@@ -133,13 +131,11 @@ Here I use [Spring Boot](https://spring.io/projects/spring-boot) freamework of [
 
 
 ## License
-----
 Distributed under the [MIT](https://opensource.org/licenses/MIT) License. See LICENSE for more information.
 
 
 
 ## Contact
----
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 Abul Basar - [@basharkhan6](https://facebook.com/basharkhan6) - basharkhan6@gmail.com
