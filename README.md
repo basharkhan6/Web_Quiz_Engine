@@ -1,9 +1,10 @@
 # Web Quiz Engine
 ----
 [![Java](https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white")](https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white") [![Spring](https://img.shields.io/badge/spring%20-%236DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white)](https://img.shields.io/badge/spring%20-%236DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white)
+
 [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![Website cv.lbesson.qc.to](https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg)](http://cv.lbesson.qc.to/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-This is a [JetBrains Academy](https://hyperskill.org) [Project](https://hyperskill.org/projects/91). Where I develop a multi-user web service for creating and solving quizzes using **REST API**, an embedded database, security, and other technologies. This is a erver side ("engine") without a user interface at all.
+This is a [JetBrains Academy](https://hyperskill.org) [Project](https://hyperskill.org/projects/91). Where I develop a multi-user web service for creating and solving quizzes using **REST API**, an embedded database, security, and other technologies. This is a server side ("engine") without a user interface at all.
 
 
 ## Usage
@@ -142,4 +143,5 @@ Distributed under the [MIT](https://opensource.org/licenses/MIT) License. See LI
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 Abul Basar - [@basharkhan6](https://facebook.com/basharkhan6) - basharkhan6@gmail.com
 Project Link: [https://github.com/basharkhan6/Web_Quiz_Engine](https://github.com/basharkhan6/Web_Quiz_Engine)
+
 [![Linkedin](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white) [![Stackoverflow](https://img.shields.io/badge/-Stack%20overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://img.shields.io/badge/-Stack%20overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
