@@ -37,7 +37,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(HttpMethod.POST, "/api/register", "/actuator/shutdown").permitAll()
                 .antMatchers("/**").hasRole("USER")   // all endpoint could access by ROLE_USER write except above (must follow order)
                 .and()
-                .csrf().disable()   // for REST (other host)
+                .csrf().disable() 
                 .headers().frameOptions().disable();    // for h2-console
     }
 
